@@ -38,3 +38,12 @@ git push
 ```
 
 Make sure to have `.gitignore` file, else all modules and dotenv file will also be pushed
+
+## Pull/Clone
+
+When pulling/cloning from Github, need to call `npm install` to install the necessary modules and create .env file
+
+```bash
+git clone https://github.com/your_repo_link_here/ .
+npm install
+```
